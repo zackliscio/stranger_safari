@@ -48,3 +48,5 @@ gem "capybara", ">= 1.1.2", :group => :test
 gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
 gem "omniauth", ">= 1.1.1"
 gem "omniauth-twitter"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "hub", ">= 1.10.2", :require => nil, :group => [:development]
