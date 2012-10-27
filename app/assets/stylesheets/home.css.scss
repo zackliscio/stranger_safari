@@ -1,14 +1,17 @@
 
 
 .spyImage{
-	width:250px;
+	width:75%;
+  margin-top:10%;
 }
 
 #homeSplashButton{
-	position:absolute;
-	bottom:50%;
-	right:25%;
-	float:right;
+  top:50%;
+
+}
+
+#newCard{
+  top:50%;
 }
 
 .btn-green {
@@ -29,25 +32,54 @@
 }
 
 #splashHero {
+  min-width: 600px;
+  position: relative;
 	text-align: center;
+  z-index: 45;
+  margin-bottom: 100px;
+}
+
+#bingoTable{
+  margin-top:20%;
 }
 
 #sampleBingoWrapper{
-  position: relative;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    float: left;
 }
 
 #sampleBingo{
-  margin-top:40px;
-  position:absolute;
-  left:20%;
-  background-color: white;
+  width:100%;
+  z-index: 54;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
   td{
-    padding:10px;
-    border:1px solid;
-    width:60px;
-    height:60px;
+    font-size: 100%;
+    background-color: white;
+    padding:10%;
+    border: 1px solid;
+    width:10%;
+
   }
   td:hover{
     background-color: #70a049;
+
   }
+}
+
+.grassWrapper{
+  pointer-events: none;
+  z-index: 63;
+  position:fixed;
+  bottom:-50px;
+  left:0;
+  height:200px;
+  width:100%;
+  background: url('/assets/grass1.png') repeat-x;
 }
