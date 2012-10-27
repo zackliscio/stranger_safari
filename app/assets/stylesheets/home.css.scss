@@ -1,6 +1,4 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
 
 .spyImage{
 	width:250px;
@@ -8,10 +6,9 @@
 
 #homeSplashButton{
 	position:absolute;
-	bottom:25%;
+	bottom:50%;
 	right:25%;
 	float:right;
-
 }
 
 .btn-green {
@@ -31,6 +28,26 @@
   -webkit-font-smoothing: antialiased;
 }
 
-#splashHero{
+#splashHero {
 	text-align: center;
+}
+
+#sampleBingoWrapper{
+  position: relative;
+}
+
+#sampleBingo{
+  margin-top:40px;
+  position:absolute;
+  left:20%;
+  background-color: white;
+  td{
+    padding:10px;
+    border:1px solid;
+    width:60px;
+    height:60px;
+  }
+  td:hover{
+    background-color: #70a049;
+  }
 }
