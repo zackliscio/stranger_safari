@@ -2,8 +2,10 @@
 
 <div class="navbar">
   <div class="navbar-inner">
-    <%= link_to "Stranger Safari", root_path, :class => 'brand' %>
-    <ul class="nav">
+    <div class = "container">
+      <a class="brand" href="/"> <%= image_tag "sslogo.png", :id => 'brandLogo', :class => 'brand'  %> </a>
+
+    <ul class="nav pull-right">
   <% if user_signed_in? %>
     <li>
     Logged in as <%= current_user.name %>
@@ -17,6 +19,7 @@
     </li>
   <% end %>
 </ul>
+    </div>
   </div>
 </div>
 
