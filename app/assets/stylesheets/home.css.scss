@@ -66,8 +66,16 @@
     border: 1px solid;
     width:10%;
   }
+  td.free{
+    border-color: #333;
+    background-color: #333;
+    color:#fff
+
+  }  
   td.free:hover{
-    background-color: white;
+    background-color: #333;
+    color:#fff
+
   }
   td:hover{
     background-color: #70a049;
