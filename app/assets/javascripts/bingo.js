@@ -26,7 +26,7 @@ $(document).ready(function(){
 
         word = safariArray[wordBase];
      
-        if(usedSafariArray[wordBase] != true){
+        if(usedSafariArray[word] != true){
             $('#cell'+i).html(word);
             usedSafariArray[word] = true;
         }else{
