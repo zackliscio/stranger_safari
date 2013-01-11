@@ -28,8 +28,6 @@ New Safari
                     <td id="cell1"> nbsp;</td>
                     <td id="cell2"> nbsp;</td>
                     <td id="cell3"> nbsp;</td>
-
-
                 </tr>
                 <tr>
                     <td id="cell4"> nbsp;</td>
@@ -55,10 +53,18 @@ New Safari
 <div class = "grassWrapper">
 
 </div> <!-- End grasswrapper -->
-<script>
+
+<script type = "text/javascript">
    $('#newCard').click(function(){
-        resetUsedSafariArray();
-        init();
+
+          function resetUsedSafariArray(){
+        for(var j = 0; j < SafariArray.length; j++){
+            resetWord = SafariArray[j];
+
+            usedSafariArray[resetWord] = false;
+        }
+    }
+    init();
     });
 </script>
 
